@@ -41,26 +41,19 @@ Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları sır
 git clone https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git
 2️⃣ Proje klasörüne girin
 bash
-
 cd Okul-Oncesi-Oyun-Simulasyonu
 3️⃣ Gerekli kütüphaneleri yükleyin
 bash
-
 pip install -r requirements.txt
 Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:
-
 bash
-
 pip install pygame gTTS
 4️⃣ Oyunu başlatın
 bash
-
 python main.py
 👨‍💻 Geliştirici
 Kenan Birlik
 Ankara Üniversitesi – Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
-
-markdown
 
 
 
