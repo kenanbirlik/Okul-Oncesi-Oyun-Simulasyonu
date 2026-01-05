@@ -34,18 +34,39 @@ Oyunun her bir modülü, okul öncesi müfredatına uygun belirli bir beceriyi k
     * **Safe-Zone:** Labirent modülünde çözümün matematiksel olarak garanti edilmesi.
     * **Subsurface Motoru:** Puzzle modülünde görsellerin kod tabanlı dinamik parçalanması.
 
-## 🚀 Kurulum ve Başlatma
+🚀 Kurulum ve Çalıştırma
 
-## 🚀 Kurulum ve Başlatma
+Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları sırasıyla CMD veya Terminal ekranına yazınız.
 
-Projeyi bilgisayarınıza indirmek ve oyunu başlatmak için aşağıdaki komutların tamamını kopyalayıp terminale yapıştırmanız yeterlidir:
+1. Projeyi Yerel Bilgisayara Yükleme
 
-```bash
-git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
-cd Okul-Oncesi-Oyun-Simulasyonu
+Projeyi kendi bilgisayarınıza indirmek için terminale aşağıdaki komutu yazınız:
+
+git clone https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git
+
+2. Gerekli Kütüphanelerin Yüklenmesi
+
+Sisteminizde Python yüklü olduğundan emin olduktan sonra gerekli kütüphaneleri kurunuz:
+
 pip install -r requirements.txt
+
+Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:
+
+pip install pygame gTTS
+
+3. Oyunun Yüklü Olduğu Klasöre Girme
+
+CMD veya Terminal ekranına aşağıdaki komutu yazarak proje klasörüne giriniz:
+
+cd Okul-Oncesi-Oyun-Simulasyonu
+
+4. Oyunu Çalıştırma
+
+Proje klasörüne girdikten sonra ana dosyayı aşağıdaki komut ile başlatınız:
+
 python main.py
 
-Geliştirici: Kenan Birlik
+👨‍💻 Geliştirici
 
-Kurum: Ankara Üniversitesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) Bölümü
+Kenan Birlik
+Ankara Üniversitesi – Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
