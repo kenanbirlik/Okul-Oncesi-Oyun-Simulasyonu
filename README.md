@@ -36,20 +36,24 @@ Bu proje, **Ankara Üniversitesi BÖTE Bölümü, Nesne Yönelimli Programlama (
 
 Projeyi bilgisayarınızda çalıştırmak için:
 
-1.  **Projeyi indirin:**
-    ```bash
-    git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
-    ```
+ **Projeyi indirin:**
+   ```bash
+   git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
 
-2.  **Gerekli kütüphaneleri yükleyin:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+Oyunun klasörüne girin:
+   cd Okul-Oncesi-Oyun-Simulasyonu
 
-3.  **Oyunu başlatın:**
-    ```bash
-    python main.py
-    ```
+Gerekli kütüphaneleri yükleyin:
 
+Bash
+
+pip install -r requirements.txt
+
+
+Oyunu başlatın:
+
+Bash
+
+python main.py
 ---
 **Geliştirici:** Kenan Birlik - Ankara Üniversitesi BÖTE
