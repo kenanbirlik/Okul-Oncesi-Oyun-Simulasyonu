@@ -36,19 +36,16 @@ Oyunun her bir modülü, okul öncesi müfredatına uygun belirli bir beceriyi k
 
 ## 🚀 Kurulum ve Başlatma
 
-### 1. Projeyi Yerel Bilgisayara Yükleme
-Projeyi kendi bilgisayarınıza indirmek için terminale şu komutu yazın:
+## 🚀 Kurulum ve Başlatma
+
+Projeyi bilgisayarınıza indirmek ve oyunu başlatmak için aşağıdaki komutların tamamını kopyalayıp terminale yapıştırmanız yeterlidir:
+
 ```bash
 git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
-2. Gerekli Kütüphanelerin Yüklenmesi
-Sisteminizde Python yüklü olduğundan emin olduktan sonra gereksinimleri kurun:
-pip install -r requirements.txt
-3. Oyunun Yüklü Olduğu Klasöre Girme
-CMD ekranına şu komutu yazarak oyunun yüklü olduğu klasörün içine girmelisin:
 cd Okul-Oncesi-Oyun-Simulasyonu
-4. Oyunu Çalıştırma
-Proje klasörüne girin ve ana dosyayı şu komutla başlatın:
+pip install -r requirements.txt
 python main.py
+
 Geliştirici: Kenan Birlik
 
 Kurum: Ankara Üniversitesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) Bölümü
