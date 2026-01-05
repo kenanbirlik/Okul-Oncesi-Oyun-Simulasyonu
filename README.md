@@ -31,29 +31,16 @@ Bu proje, **Ankara Üniversitesi BÖTE Bölümü, Nesne Yönelimli Programlama (
 10. **Hedef Bul (Labirent):** Yön kavramı ve strateji.
 
 ---
+🛠️ Kurulum ve Çalıştırma
+Projeyi bilgisayarınızda çalıştırmak için sırasıyla şu adımları CMD veya Terminal ekranına yazın:
 
-## 🛠️ Kurulum ve Çalıştırma
+1. Projeyi indirin: git clone https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git
 
-Projeyi bilgisayarınızda çalıştırmak için sırasıyla şu adımları yapın:
+2. Oyunun klasörüne girin: cd Okul-Oncesi-Oyun-Simulasyonu
 
-1. **Projeyi indirin:**
-   ```bash
-   git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
-   Oyunun klasörüne girin:
+3. Gerekli kütüphaneleri yükleyin: pip install -r requirements.txt
 
-Bash
+(Not: Eğer hata alırsanız şu komutu deneyin: pip install pygame gTTS)
 
-cd Okul-Oncesi-Oyun-Simulasyonu
-Gerekli kütüphaneleri yükleyin:
-
-Bash
-
-pip install -r requirements.txt
-Oyunu başlatın:
-
-Bash
-
-python main.py
-
----
+4. Oyunu başlatın: python main.py
 **Geliştirici:** Kenan Birlik - Ankara Üniversitesi BÖTE
