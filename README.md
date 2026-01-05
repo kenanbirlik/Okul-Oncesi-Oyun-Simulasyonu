@@ -1,10 +1,8 @@
 # 🎓 Okul Öncesi Eğitim İçin Oyunlaştırılmış Simülasyon Platformu
 
-Bu proje, **Ankara Üniversitesi BÖTE Bölümü, Nesne Yönelimli Programlama (BOZ213)** dersi kapsamında geliştirilmiştir.
+Bu proje, **Ankara Üniversitesi BÖTE Bölümü**, **Nesne Yönelimli Programlama (BOZ213)** dersi kapsamında geliştirilmiştir.
 
 3-6 yaş grubu çocukların temel kavramları (renkler, şekiller, sayılar, harfler) eğlenerek öğrenmesi için tasarlanmış, **Python** ve **Pygame** tabanlı modüler bir eğitim simülasyonudur.
-
----
 
 ## 🚀 Öne Çıkan Özellikler
 
@@ -14,8 +12,6 @@ Bu proje, **Ankara Üniversitesi BÖTE Bölümü, Nesne Yönelimli Programlama (
     * **Labirent Modülü:** Çözümü matematiksel olarak garanti eden "Safe-Zone" engel yerleşimi.
     * **Puzzle Modülü:** Görselleri kod tabanlı dinamik olarak parçalayan `subsurface` motoru.
 * **💾 Veri Yönetimi:** Kullanıcı tercihleri ve ilerlemesi JSON formatında kalıcı olarak saklanır.
-
----
 
 ## 🎮 Oyun Modülleri (10 Bölüm)
 
@@ -38,22 +34,24 @@ Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları sır
 
 ### 1️⃣ Projeyi indirin
 ```bash
-git clone https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git
+git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
 2️⃣ Proje klasörüne girin
-bash
+Bash
+
 cd Okul-Oncesi-Oyun-Simulasyonu
 3️⃣ Gerekli kütüphaneleri yükleyin
-bash
+Bash
+
 pip install -r requirements.txt
-Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:
-bash
+(Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:)
+
+Bash
+
 pip install pygame gTTS
 4️⃣ Oyunu başlatın
-bash
+Bash
+
 python main.py
-👨‍💻 Geliştirici
-Kenan Birlik
-Ankara Üniversitesi – Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
 
 
 
