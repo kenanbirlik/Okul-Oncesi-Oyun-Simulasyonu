@@ -28,34 +28,37 @@ Bu proje, **Ankara Üniversitesi BÖTE Bölümü**, **Nesne Yönelimli Programla
 
 ---
 
-## 🔧 Kurulum ve Çalıştırma
+🚀 Kurulum ve Çalıştırma
 
-Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları sırasıyla **CMD** veya **Terminal** ekranına yazınız.
+Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları sırasıyla CMD veya Terminal ekranına yazınız.
 
-### 1️⃣ Projeyi indirin
-```bash
-git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
+1. Projeyi Yerel Bilgisayara Yükleme
 
-2️⃣ Proje klasörüne girin
-Bash
-cd Okul-Oncesi-Oyun-Simulasyonu
+Projeyi kendi bilgisayarınıza indirmek için terminale aşağıdaki komutu yazınız:
 
-3️⃣ Gerekli kütüphaneleri yükleyin
-Bash
+git clone https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git
+
+2. Gerekli Kütüphanelerin Yüklenmesi
+
+Sisteminizde Python yüklü olduğundan emin olduktan sonra gerekli kütüphaneleri kurunuz:
 
 pip install -r requirements.txt
 
-(Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:)
-
-Bash
+Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:
 
 pip install pygame gTTS
 
-4️⃣ Oyunu başlatın
-Bash
+3. Oyunun Yüklü Olduğu Klasöre Girme
+
+CMD veya Terminal ekranına aşağıdaki komutu yazarak proje klasörüne giriniz:
+
+cd Okul-Oncesi-Oyun-Simulasyonu
+
+4. Oyunu Çalıştırma
+
+Proje klasörüne girdikten sonra ana dosyayı aşağıdaki komut ile başlatınız:
 
 python main.py
-
 
 👨‍💻 Geliştirici
 
