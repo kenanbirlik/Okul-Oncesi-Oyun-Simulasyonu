@@ -1,69 +1,54 @@
 # 🎓 Okul Öncesi Eğitim İçin Oyunlaştırılmış Simülasyon Platformu
 
-Bu proje, **Ankara Üniversitesi BÖTE Bölümü**, **Nesne Yönelimli Programlama (BOZ213)** dersi kapsamında geliştirilmiştir.
+## 👋 Giriş ve Hakkımda
+Merhaba! Ben **Kenan Birlik**. Ankara Üniversitesi, Bilgisayar ve Öğretim Teknolojileri Öğretmenliği (BÖTE) bölümü öğrencisiyim. Bu proje, Nesne Yönelimli Programlama (BOZ213) dersi kapsamında, okul öncesi dönemdeki (3-6 yaş) çocukların temel kavramları eğlenerek öğrenmesi amacıyla geliştirdiğim kapsamlı bir simülasyon çalışmasıdır.
 
-3-6 yaş grubu çocukların temel kavramları (renkler, şekiller, sayılar, harfler) eğlenerek öğrenmesi için tasarlanmış, **Python** ve **Pygame** tabanlı modüler bir eğitim simülasyonudur.
+Teknolojinin eğitimdeki yerini pekiştirmek amacıyla, renkler, şekiller, sayılar ve harfler gibi soyut kavramların oyunlaştırma (gamification) teknikleriyle somutlaştırılmasını ve çocukların interaktif bir ortamda gelişimlerini desteklemeyi hedefledim.
 
-## 🚀 Öne Çıkan Özellikler
+## 📝 Proje Özeti
+"Okul Öncesi Eğitim Simülasyonu", Python programlama dili ve Pygame kütüphanesi temel alınarak geliştirilmiş, tamamen modüler yapıda tasarlanmış bir eğitim setidir. Proje, çocukların bilişsel ve motor becerilerini geliştirmeye odaklanan 10 farklı interaktif modülden oluşmaktadır.
 
-* **🏗️ OOP Mimarisi:** Tüm oyun modülleri `BaseScene` sınıfından türetilerek (Inheritance) %100 modüler ve genişletilebilir bir yapıda tasarlanmıştır.
-* **🗣️ Dinamik Seslendirme:** `gTTS` (Google Text-to-Speech) teknolojisi ile çocuğun hamle sayısı ve başarı durumu anlık olarak seslendirilir.
-* **🧩 Akıllı Algoritmalar:**
-    * **Labirent Modülü:** Çözümü matematiksel olarak garanti eden "Safe-Zone" engel yerleşimi.
-    * **Puzzle Modülü:** Görselleri kod tabanlı dinamik olarak parçalayan `subsurface` motoru.
-* **💾 Veri Yönetimi:** Kullanıcı tercihleri ve ilerlemesi JSON formatında kalıcı olarak saklanır.
+## 🎮 Modüller ve Eğitimsel Kazanımlar
+Oyunun her bir modülü, okul öncesi müfredatına uygun belirli bir beceriyi kazandırmak üzerine kurgulanmıştır:
 
-## 🎮 Oyun Modülleri (10 Bölüm)
+| Oyun Modülü | Odaklanılan Beceri / Kazanım |
+| :--- | :--- |
+| **Meyve Toplama** | Sayma Becerisi ve Temel Matematik |
+| **Renk Eşleştirme** | Görsel Algı ve Sürükle-Bırak (Motor Beceri) |
+| **Sesli Harfler** | Dil Gelişimi ve Nesne Tanıma |
+| **Şekil Bulma** | Geometrik Algı ve Gölge Eşleştirme |
+| **Büyük-Küçük** | Boyut Algısı ve Sıralama Mantığı |
+| **Balık Sayma** | Hareketli Nesne Takibi ve Dikkat |
+| **Nesne Bulma** | İşitsel Yönerge Takibi ve Odaklanma |
+| **Hafıza Oyunu** | Görsel Bellek Egzersizi |
+| **Puzzle** | Parça-Bütün İlişkisi Kurma |
+| **Hedef Bul (Labirent)** | Yön Kavramı ve Stratejik Düşünme |
 
-1.  **Meyve Toplama:** Sayma becerisi.
-2.  **Renk Eşleştirme:** Görsel algı ve sürükle-bırak motoru.
-3.  **Sesli Harfler:** Sepet ile doğru nesneleri yakalama.
-4.  **Şekil Bulma:** Gölge eşleştirme ve "Mıknatıs" (Magnet) etkisi.
-5.  **Büyük-Küçük:** Boyut algısı ve sıralama.
-6.  **Balık Sayma:** Hareketli nesne takibi.
-7.  **Nesne Bulma:** İşitsel yönerge takibi.
-8.  **Hafıza Oyunu:** Görsel bellek egzersizi.
-9.  **Puzzle:** Parça-bütün ilişkisi.
-10. **Hedef Bul (Labirent):** Yön kavramı ve strateji.
+## 🛠️ Teknik Mimari ve Özellikler
+* **Programlama Dili:** Python 3.x
+* **Kütüphaneler:** Pygame, gTTS (Google Text-to-Speech)
+* **OOP Mimari:** Tüm modüller `BaseScene` sınıfından türetilerek (Inheritance) %100 modüler ve genişletilebilir bir yapıda tasarlanmıştır.
+* **Ses Teknolojisi:** Hamle sayısı ve başarı durumu **gTTS** teknolojisi ile dinamik olarak seslendirilmektedir.
+* **Veri Yönetimi:** Kullanıcı tercihleri ve ilerlemesi **JSON** formatında kalıcı olarak saklanır.
+* **Algoritmalar:**
+    * **Safe-Zone:** Labirent modülünde çözümün matematiksel olarak garanti edilmesi.
+    * **Subsurface Motoru:** Puzzle modülünde görsellerin kod tabanlı dinamik parçalanması.
 
----
+## 🚀 Kurulum ve Başlatma
 
-🚀 Kurulum ve Çalıştırma
-
-Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları sırasıyla CMD veya Terminal ekranına yazınız.
-
-1. Projeyi Yerel Bilgisayara Yükleme
-
-Projeyi kendi bilgisayarınıza indirmek için terminale aşağıdaki komutu yazınız:
-
-git clone https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git
-
+### 1. Projeyi Yerel Bilgisayara Yükleme
+Projeyi kendi bilgisayarınıza indirmek için terminale şu komutu yazın:
+```bash
+git clone [https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git](https://github.com/kenanbirlik/Okul-Oncesi-Oyun-Simulasyonu.git)
 2. Gerekli Kütüphanelerin Yüklenmesi
-
-Sisteminizde Python yüklü olduğundan emin olduktan sonra gerekli kütüphaneleri kurunuz:
-
+Sisteminizde Python yüklü olduğundan emin olduktan sonra gereksinimleri kurun:
 pip install -r requirements.txt
-
-Not: Eğer hata alırsanız aşağıdaki komutu deneyiniz:
-
-pip install pygame gTTS
-
 3. Oyunun Yüklü Olduğu Klasöre Girme
-
-CMD veya Terminal ekranına aşağıdaki komutu yazarak proje klasörüne giriniz:
-
+CMD ekranına şu komutu yazarak oyunun yüklü olduğu klasörün içine girmelisin:
 cd Okul-Oncesi-Oyun-Simulasyonu
-
 4. Oyunu Çalıştırma
-
-Proje klasörüne girdikten sonra ana dosyayı aşağıdaki komut ile başlatınız:
-
+Proje klasörüne girin ve ana dosyayı şu komutla başlatın:
 python main.py
+Geliştirici: Kenan Birlik
 
-👨‍💻 Geliştirici
-
-Kenan Birlik
-Ankara Üniversitesi – Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
-
-
-
+Kurum: Ankara Üniversitesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) Bölümü
