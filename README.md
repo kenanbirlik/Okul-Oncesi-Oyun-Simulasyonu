@@ -70,3 +70,12 @@ python main.py
 
 Kenan Birlik
 Ankara Üniversitesi – Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
+```
+##📄 Lisans ve Telif Hakkı
+Bu projede Tüm Haklar Saklıdır.
+
+Kaynak kodları yalnızca inceleme ve eğitim amaçlı erişime sahiptir. İzin alınmasından ticari amaçla kullanılması, kopyalanması veya dağıtılması yasaktır.
+
+Copyright © 2026 Kenan Birlik
+
+Not: Bu proje Ankara Üniversitesi BOZ213 dersi kapsamında geliştirilmiştir.
